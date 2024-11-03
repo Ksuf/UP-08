@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Gilroy;
+    src: url("fonts/Gilroy/Gilroy-Regular.ttf");
+}
+@font-face {
+    font-family: GilroySemibold;
+    src: url("fonts/Gilroy/Gilroy-Semibold.ttf");
+}
+@font-face {
+    font-family: GilroySemiboldItalic;
+    src: url("fonts/Gilroy/Gilroy-SemiboldItalic.ttf");
+}
+body {
+    font-family: Gilroy;
+    background: #F9F8FD url("img/Group1179.svg") no-repeat 40% 0%;
+}
+ul {
+    list-style-type: none;
+}
+.wrapper {
+    width: min(100%, 1160px);
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+    color: rgb(34, 37, 59);
+    font-family: GilroySemiBold;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0%;
+    margin-bottom: 35px;
+}
+/*---- header ----*/
+header {
+    background: url("img/Layer2.svg") no-repeat 75% 70%, url("img/Group132.svg") no-repeat  -22% 41.5%;
+    padding-bottom: 102px;
+}
+header nav .wrapper {
+    display: flex;
+    align-items: center;
+    border-radius: 75px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.9);
+    margin-bottom: 70px;
+}
+header .logo {
+    margin-right: 74px;
+    display: block;
+    margin-left: 21px;
+}
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 41px;  
+    height: 51px;
+}
+.button-login {
+    margin-left: 15px;
+}
+h1 {
+    width: 638px;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0%;
+    font-family: Gilroy;
+}
+h1 .red {
+    font-family: GilroySemibold;
+    font-weight: 600;
+    color: rgb(241, 85, 37)
+}
+h1 .italic {
+    font-family: GilroySemiboldItalic;
+}
+header p {
+    color: rgb(34, 37, 59);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    width: 365.22px;
+}
+.line {
+    width: 365.22px;
+    height: 0;
+    border: 1px solid rgb(222, 222, 222);
+    margin: 30.5px 0 15.03px 0;
+}
+.button-orange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 321px;
+    height: 70px;
+    border-radius: 82px;
+    background: rgb(241, 85, 37);
+    margin-top: 18.47px;
+}
+.arrow {
+   margin-left: 12px;
+}
+
+/*----- технологии ------*/
+.technology {
+    padding-top: 184px;
+    background: white;
+}
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 58px;
+    border-radius: 48px;
+    background: rgb(234, 242, 245);
+    padding: 42px 104.17px 0 122.92px;
+}
+.buttons-cources {
+    width: 466.83px;
+    margin-top: 46px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 10px 8px;
+}
+.buttons-cources a {
+    border-radius: 44px;
+    padding: 12.5px 17px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+}
+.button-blue { background: rgb(80, 150, 255); }
+.button-yellow { background: rgb(255, 179, 89); }
+.button-orange-small { background: rgb(255, 111, 80); }
+.button-green { background: rgb(75, 208, 113); }
+.button-lightblue { background: rgb(80, 192, 255); }
+.button-blueblack { background: rgb(75, 119, 185); }
+.button-violet { background: rgb(175, 147, 255); }
+.buttons-cources p {
+    color: rgb(34, 37, 59);
+    font-family: GilroySemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-top: 26.13px;
+}
+
+/*----- Обучение в YtYt -----*/
+.advanted {
+    background: white;
+    padding-top: 84px;
+    border-radius: 0 0 50px 50px;
+    padding-bottom: 55.5px;
+}
+.advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+}
+.advantages article {
+    width: 270px;
+    height: 254px;
+    border-radius: 30px;
+    background: rgb(234, 242, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 49px 35px 31px 35px;
+}
+.advantages article img {
+    width: min-content;
+}
+.advantages article h3 {
+    color: rgb(34, 37, 59);
+    font-family: GilroySemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.5px;
+}
+.advantages article p {
+    color: rgb(34, 37, 59);
+    font-family: Gilroy;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+}
+/*------- Как происходит обучение -------*/
+.how {
+    padding-top: 55.5px;
+}
+.how-info {
+    color: rgb(34, 37, 59);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 642px;
+    text-align: center;
+    margin: 0 auto;
+}
+.pc {
+    background: url("img/pc.png");
+    width: 762.26px;
+    height: 442.05px;
+    margin: 28px auto 30px auto;
+    position: relative;
+}
+iframe {
+    position: absolute;
+    width: 580px;
+    height: 367.92px;
+    top: 26px;
+    left: 96px;
+    border-radius: 17px;
+}
+.blur {
+    width: 580px;
+    height: 367.92px;
+    position: absolute;
+    top: 26px;
+    left: 96px;
+    background: rgba(25, 26, 38, 0.76);
+    border-radius: 17px;
+}
+
+.numbers {
+    display: flex;
+    border-radius: 40px;
+    box-shadow: 0px 81px 120px -77px rgba(34, 37, 59, 0.04);
+    background: rgb(255, 255, 255);
+    padding: 56px 58px 56px 53px;
+}
+.numbers article {
+    width: 266px;
+}
+.numbers article:last-child {
+    width: 288px;
+}
+.numbers .line-vertical {
+    width: 1px;
+    height: 259px;
+    background: rgb(234, 242, 245);
+    margin: 0 55px;
+}
+.numbers .number {
+    color: rgb(56, 191, 242);
+    font-family: GilroySemiBold;
+    font-size: 77px;
+    font-weight: 700;
+}
+.numbers h3 {
+    color: rgb(34, 37, 59);
+    font-family: Gilroy;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 30px;
+    margin: 10px 0 19px 0;
+}
+.numbers p {
+    
+}
+
+.call {
+    display: flex;
+    width: 538px;
+    margin: 26px auto 90px auto;
+    padding: 12px 37px 11px 14px;
+    border-radius: 110px;
+    background: rgb(255, 255, 255);
+    align-content: flex-start;
+    gap: 24px;
+    align-items: center;
+}
+.call p {
+    color: rgb(34, 37, 59);
+    font-family: Gilroy;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    width: 214px;
+}
+.call .button-orange {
+    width: 249px;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 96.69%;
+}
+
+/*----- Помощь и поддержка ----*/
+.help {
+    border-radius: 80px;
+    background: rgb(255, 255, 255);
+    padding: 90px 0;
+}
+.help .wrapper {
+    display: grid;
+    gap: 30px;
+    grid-template-rows: 313px 290px;
+    grid-template-columns: 400px 300px 400px;
+}
+.help article {
+    border-radius: 40px;
+    background: rgb(234, 242, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.help .support , 
+.help .method {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 55px 0 0 100px;
+}
+.help .support {
+    grid-column: 2/4;
+}
+.help .method {
+    grid-column: 1/3;
+}
+
+.support p, .method p {
+    width: 502px;
+    color: rgb(34, 37, 59);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.help article h3 {
+    color: rgb(34, 37, 59);
+    font-family: GilroySemiBold;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+/*------- Стоимость обучения -------*/
+.price {
+    margin-top: 90px;
+}
+.price .steps {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 41px;
+}
+.price .steps .step {
+    display: flex;
+    gap: 30px;
+}
+.price .steps .step p {
+    color: rgb(34, 37, 59);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.price .steps .step2 p {
+    width: 158px;
+} 
+.price .table {
+    background: white;
+}
